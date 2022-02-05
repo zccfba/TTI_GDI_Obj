@@ -13,6 +13,12 @@ LRESULT CALLBACK WindowProcedure (HWND, UINT, WPARAM, LPARAM);
 /*  Make the class name into a global variable  */
 TCHAR szClassName[ ] = _T("CodeBlocksWindowsApp");
 
+
+/**************************************************************************************************
+***																								***
+***																								***
+***																								***
+**************************************************************************************************/
 int WINAPI WinMain (HINSTANCE hThisInstance, HINSTANCE hPrevInstance, LPSTR lpszArgument, int nCmdShow)
 {
     HWND hwnd;               /* This is the handle for our window */
